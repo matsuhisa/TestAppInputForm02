@@ -6,11 +6,13 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var TestWebView: UIWebView!
-    @IBOutlet weak var InputView: UIPlaceHolderTextView!
+    @IBOutlet weak var ImutView: UIPlaceHolderTextView!
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        ImutView.placeHolder = "本文です。"
+        ImutView.placeHolderColor = UIColor(red: 255, green: 0, blue: 0, alpha: 0.2)
         
         // 文字列からWebViewを表示する
         /*
