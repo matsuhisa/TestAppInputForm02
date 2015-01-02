@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B91413C81A524FE100A85561 /* UIPlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91413C71A524FE100A85561 /* UIPlaceHolderTextView.swift */; };
 		B993E50A1A4FE876009C9B61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B993E5091A4FE876009C9B61 /* AppDelegate.swift */; };
 		B993E50C1A4FE876009C9B61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B993E50B1A4FE876009C9B61 /* ViewController.swift */; };
 		B993E50F1A4FE876009C9B61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B993E50D1A4FE876009C9B61 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B91413C71A524FE100A85561 /* UIPlaceHolderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPlaceHolderTextView.swift; sourceTree = "<group>"; };
 		B993E5041A4FE876009C9B61 /* TestAppInputForm02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAppInputForm02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B993E5081A4FE876009C9B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B993E5091A4FE876009C9B61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				B993E5101A4FE876009C9B61 /* Images.xcassets */,
 				B993E5121A4FE876009C9B61 /* LaunchScreen.xib */,
 				B993E5071A4FE876009C9B61 /* Supporting Files */,
+				B91413C71A524FE100A85561 /* UIPlaceHolderTextView.swift */,
 			);
 			path = TestAppInputForm02;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B993E50C1A4FE876009C9B61 /* ViewController.swift in Sources */,
+				B91413C81A524FE100A85561 /* UIPlaceHolderTextView.swift in Sources */,
 				B993E50A1A4FE876009C9B61 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				B993E5251A4FE876009C9B61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B993E5261A4FE876009C9B61 /* Build configuration list for PBXNativeTarget "TestAppInputForm02Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				B993E5281A4FE876009C9B61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
