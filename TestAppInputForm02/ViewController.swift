@@ -6,13 +6,11 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var TestWebView: UIWebView!
-    @IBOutlet weak var ImutView: UIPlaceHolderTextView!
+    @IBOutlet weak var InputView: UIPlaceHolderTextView!
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-
         
         // 文字列からWebViewを表示する
         /*

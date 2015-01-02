@@ -1,10 +1,5 @@
-//
 //  AppDelegate.swift
 //  TestAppInputForm02
-//
-//  Created by 松久浩伸 on 2014/12/28.
-//  Copyright (c) 2014年 matsuhisa.hironobu. All rights reserved.
-//
 
 import UIKit
 
