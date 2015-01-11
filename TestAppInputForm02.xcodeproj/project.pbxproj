@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B91413C81A524FE100A85561 /* UIPlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91413C71A524FE100A85561 /* UIPlaceHolderTextView.swift */; };
+		B9439F6D1A6127E9000A3D10 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9439F6C1A6127E9000A3D10 /* SecondView.swift */; };
+		B9439F6F1A61360D000A3D10 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9439F6E1A61360D000A3D10 /* ThirdView.swift */; };
 		B993E50A1A4FE876009C9B61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B993E5091A4FE876009C9B61 /* AppDelegate.swift */; };
 		B993E50C1A4FE876009C9B61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B993E50B1A4FE876009C9B61 /* ViewController.swift */; };
 		B993E50F1A4FE876009C9B61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B993E50D1A4FE876009C9B61 /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		B91413C71A524FE100A85561 /* UIPlaceHolderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPlaceHolderTextView.swift; sourceTree = "<group>"; };
+		B9439F6C1A6127E9000A3D10 /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		B9439F6E1A61360D000A3D10 /* ThirdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		B993E5041A4FE876009C9B61 /* TestAppInputForm02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAppInputForm02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B993E5081A4FE876009C9B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B993E5091A4FE876009C9B61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				B993E5121A4FE876009C9B61 /* LaunchScreen.xib */,
 				B993E5071A4FE876009C9B61 /* Supporting Files */,
 				B91413C71A524FE100A85561 /* UIPlaceHolderTextView.swift */,
+				B9439F6C1A6127E9000A3D10 /* SecondView.swift */,
+				B9439F6E1A61360D000A3D10 /* ThirdView.swift */,
 			);
 			path = TestAppInputForm02;
 			sourceTree = "<group>";
@@ -216,7 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B993E50C1A4FE876009C9B61 /* ViewController.swift in Sources */,
+				B9439F6F1A61360D000A3D10 /* ThirdView.swift in Sources */,
 				B91413C81A524FE100A85561 /* UIPlaceHolderTextView.swift in Sources */,
+				B9439F6D1A6127E9000A3D10 /* SecondView.swift in Sources */,
 				B993E50A1A4FE876009C9B61 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
