@@ -171,7 +171,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDQ-RC-yWR">
-                                <rect key="frame" x="46" y="80.5" width="114" height="30"/>
+                                <rect key="frame" x="46" y="260" width="114" height="30"/>
                                 <state key="normal">
                                     <string key="title" base64-UTF8="YES">
 Mwjmnprnm67jgaDjgZHplonjgZjjgos
@@ -180,24 +180,46 @@ Mwjmnprnm67jgaDjgZHplonjgZjjgos
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63h-kP-Qx7">
-                                <rect key="frame" x="46" y="121" width="75" height="30"/>
+                                <rect key="frame" x="46" y="300" width="75" height="30"/>
                                 <state key="normal" title="全部閉じる">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Rs-Mx-Cyt" customClass="UIPlaceHolderTextView" customModule="TestAppInputForm02" customModuleProvider="target">
+                                <rect key="frame" x="26" y="80" width="548" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="6mQ-Mg-LVQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XGw-wH-Cdv">
+                                <rect key="frame" x="46" y="380" width="30" height="30"/>
+                                <state key="normal" title="保存">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="LDQ-RC-yWR" firstAttribute="top" secondItem="ECj-ES-iv6" secondAttribute="bottom" constant="10" id="4fi-kL-o3r"/>
+                            <constraint firstItem="XGw-wH-Cdv" firstAttribute="top" secondItem="63h-kP-Qx7" secondAttribute="bottom" constant="50" id="6ds-Xw-Xn2"/>
+                            <constraint firstItem="2Rs-Mx-Cyt" firstAttribute="leading" secondItem="99c-w2-AuJ" secondAttribute="leadingMargin" constant="10" id="IJ5-1M-Jj5"/>
                             <constraint firstItem="63h-kP-Qx7" firstAttribute="top" secondItem="LDQ-RC-yWR" secondAttribute="bottom" constant="10" id="Le3-T3-hs0"/>
+                            <constraint firstItem="LDQ-RC-yWR" firstAttribute="top" secondItem="2Rs-Mx-Cyt" secondAttribute="bottom" constant="30" id="NHR-6L-3Al"/>
                             <constraint firstItem="63h-kP-Qx7" firstAttribute="leading" secondItem="99c-w2-AuJ" secondAttribute="leadingMargin" constant="30" id="SHG-Dm-w8W"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2Rs-Mx-Cyt" secondAttribute="trailing" constant="10" id="Vgi-so-Z2p"/>
+                            <constraint firstItem="XGw-wH-Cdv" firstAttribute="leading" secondItem="99c-w2-AuJ" secondAttribute="leadingMargin" constant="30" id="a70-vY-O14"/>
                             <constraint firstItem="ECj-ES-iv6" firstAttribute="top" secondItem="FFG-Iv-JAs" secondAttribute="bottom" constant="30" id="gK1-y0-FeS"/>
                             <constraint firstItem="ECj-ES-iv6" firstAttribute="leading" secondItem="99c-w2-AuJ" secondAttribute="leadingMargin" constant="30" id="gWa-td-vK8"/>
+                            <constraint firstItem="2Rs-Mx-Cyt" firstAttribute="top" secondItem="ECj-ES-iv6" secondAttribute="bottom" constant="10" id="wke-Yw-epQ"/>
                             <constraint firstItem="LDQ-RC-yWR" firstAttribute="leading" secondItem="99c-w2-AuJ" secondAttribute="leadingMargin" constant="30" id="ytg-qo-nfl"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="AllCloseButton" destination="63h-kP-Qx7" id="LVD-9Y-99C"/>
+                        <outlet property="InputTextThird" destination="2Rs-Mx-Cyt" id="Ywf-m5-bHB"/>
+                        <outlet property="SaveButton" destination="XGw-wH-Cdv" id="bN1-qB-Hki"/>
                         <outlet property="ThisCloseButton" destination="LDQ-RC-yWR" id="FN3-ku-VJR"/>
                     </connections>
                 </viewController>
