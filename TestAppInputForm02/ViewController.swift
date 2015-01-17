@@ -9,7 +9,6 @@ class ViewController: UIViewController, ModalViewDelegate{
     @IBOutlet weak var ImutView: UIPlaceHolderTextView!
     @IBOutlet weak var SaveButton: UIButton!
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -35,7 +34,6 @@ class ViewController: UIViewController, ModalViewDelegate{
     }
     
     func saveText(textdata:String){
-        println("ViewController.textdata")
         ImutView.text = textdata
     }
 }
