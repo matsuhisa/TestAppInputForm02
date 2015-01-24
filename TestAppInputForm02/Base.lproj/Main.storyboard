@@ -94,6 +94,7 @@
                     </view>
                     <connections>
                         <outlet property="ImutView" destination="ZNc-nU-J6Z" id="bFL-1j-jjI"/>
+                        <outlet property="InputTitle" destination="y2X-YB-n8i" id="M4a-mL-hco"/>
                         <outlet property="SaveButton" destination="hi3-Mg-can" id="Dju-VM-gCW"/>
                         <outlet property="TestWebView" destination="evc-Fz-EQQ" id="LEy-qZ-d5c"/>
                     </connections>
